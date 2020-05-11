@@ -10,8 +10,8 @@
 通过网页直接上传文件(.mp4)到S3，触发Lambda函数，生成一张截图。
 网页上传文件所需的 访问密钥 ID(Access key ID，简称AK) 和 私有访问密钥(Secret access key，简称SK) 从API Gateway获取，API Gateway调用Lambda函数获取Session Token，网页使用Session Token来上传文件。
 
-#示例图
-![image](./images/000.png)
+
+![image](./images/000.jpg)
 
 
 # 步骤
